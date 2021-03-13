@@ -12,6 +12,7 @@ public class Main {
         boss.setHealth(250);
         boss.setNameWeapon("CSS");
         boss.setTypeWeapon("Rifle");
+        boss.printInfo();
         System.out.println("Name:" + boss.getNameWeapon() + " " + "Damage:" +
                 boss.getDamage() + " "  + "Health:" + boss.getHealth() + " " + "Type:" + boss.getTypeWeapon());
 
